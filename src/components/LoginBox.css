@@ -1,0 +1,80 @@
+.login-box {
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid #ccc;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .login-box h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .tab-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tab-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background: #e9e9e9;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .tab-buttons button.active {
+    background: #007bff;
+    color: white;
+  }
+  
+  .sign-in-options button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .sign-in-options button img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  .sign-in-options button:hover {
+    background: #f1f1f1;
+  }
+  
+  .login-box p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .login-box a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
